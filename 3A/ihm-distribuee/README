@@ -1,0 +1,5 @@
+To run the docker correctly :
+
+```bash
+docker-gui -it --rm --net host -v /path/to/license:/root/Documents/Ingescape/licenses/ups.igslicense upssidocker/ingescape-circle
+```
